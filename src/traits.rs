@@ -1,4 +1,4 @@
-trait BitSet {
+pub trait BitSet {
     fn clear(&mut self, index : usize);
     fn is_set(&self, index: usize) -> bool;
     fn set(&mut self, index: usize);
@@ -60,9 +60,9 @@ mod tests {
         num.toggle(20);
         assert_eq!(num, 1048576);
         num.toggle(20);
-        assert_eq!(num, 0);
+        assert_eq!(num, 1);
         num.toggle(20);
-        assert_eq!(num, 1048576);
+        assert_eq!(num, 1048577);
     }
 
 }
