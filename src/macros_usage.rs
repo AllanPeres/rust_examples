@@ -64,6 +64,14 @@ op!(+ self:Value, other {
     }
 });
 
+macro_rules! hash {
+    ($( $key:expr => $value:expr), *) => {{
+        let mut hashmap = ::std::collections::HashMap::new();
+        $(hashmap.insert($key, $value);)*
+        hashmap
+    }};
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -85,5 +93,15 @@ mod tests {
         let p2 = Value{ x: 3 };
         let p3 = p1 + p2;
         assert_eq!(p3.x, 4);
+    }
+
+    #[test]
+    fn test_hash_map_macro_creation() {
+        let hashmap = hash! {
+            "bla" => 1,
+            "ble" => 2
+        };
+
+        assert!(hashmap.contains_key("bla"));
     }
 }
