@@ -1,5 +1,7 @@
 use super::objects::bit_set::BitSet;
 
+use std::ops::Mul;
+
 struct Value {
     x: i32
 }
@@ -44,6 +46,16 @@ macro_rules! op {
             }
         }
     };
+
+    (* $_self:ident : $self_type:ty, $other:ident $expr:expr) => {
+        impl ::std::ops::Mul for $self_type {
+            type Output = $self_type;
+
+            fn mul($_self, $other: $self_type) -> $self_type {
+                $expr
+            }
+        }
+    }
 }
 
 op!(+ self:Value, other {
