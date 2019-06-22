@@ -1,6 +1,6 @@
 use std::ops::Add;
 
-use super::utils::point::Point;
+use super::objects::point::Point;
 
 #[cfg(test)]
 mod tests {

@@ -1,4 +1,4 @@
-use super::utils::point::Point;
+use super::objects::point::Point;
 
 fn max<T: PartialOrd>(a: T, b: T) -> T {
     if a > b {

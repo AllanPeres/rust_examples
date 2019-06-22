@@ -7,16 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af7a9430-381f-4d11-9cd4-9dcede41e650" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/macros.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/point.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/macros_usage.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/bit_set.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objects/mod.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/examples.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/associated_types.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/associated_types.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/macros.rs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/traits.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/traits.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/mod.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/point.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/point.rs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,72 +33,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/generics.rs">
+        <entry file="file://$PROJECT_DIR$/src/main.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="38" column="69" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrays.rs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#31#32#0" expanded="true" />
-                <element signature="e#47#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/macros.rs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+            <state relative-caret-position="105">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/traits.rs">
+        <entry file="file://$PROJECT_DIR$/src/macros_usage.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
-              <folding>
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#668#669#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="403">
+              <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.rs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cargo.toml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/point.rs">
+        <entry file="file://$PROJECT_DIR$/src/matches.rs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/objects/mod.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -115,6 +81,7 @@
     <findStrings>
       <find>WorldExample</find>
       <find>utils::point::</find>
+      <find>utils</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,15 +95,22 @@
         <option value="$PROJECT_DIR$/Cargo.toml" />
         <option value="$PROJECT_DIR$/src/references.rs" />
         <option value="$PROJECT_DIR$/src/matches.rs" />
-        <option value="$PROJECT_DIR$/src/utils/mod.rs" />
-        <option value="$PROJECT_DIR$/src/associated_types.rs" />
         <option value="$PROJECT_DIR$/src/utils/point.rs" />
-        <option value="$PROJECT_DIR$/src/generics.rs" />
         <option value="$PROJECT_DIR$/src/utils/arrays.rs" />
         <option value="$PROJECT_DIR$/src/arrays.rs" />
-        <option value="$PROJECT_DIR$/src/main.rs" />
-        <option value="$PROJECT_DIR$/src/macros.rs" />
+        <option value="$PROJECT_DIR$/src/utils/bit_set.rs" />
+        <option value="$PROJECT_DIR$/src/utils/mod.rs" />
         <option value="$PROJECT_DIR$/src/traits.rs" />
+        <option value="$PROJECT_DIR$/src/associated_types.rs" />
+        <option value="$PROJECT_DIR$/src/generics.rs" />
+        <option value="$PROJECT_DIR$/src/macros/add_sub.rs" />
+        <option value="$PROJECT_DIR$/src/macros/init_bitset.rs" />
+        <option value="$PROJECT_DIR$/src/macros/mod.rs" />
+        <option value="$PROJECT_DIR$/src/macros.rs" />
+        <option value="$PROJECT_DIR$/src/created_macros/init_bitset.rs" />
+        <option value="$PROJECT_DIR$/src/created_macros/op.rs" />
+        <option value="$PROJECT_DIR$/src/main.rs" />
+        <option value="$PROJECT_DIR$/src/macros_usage.rs" />
       </list>
     </option>
   </component>
@@ -144,6 +118,7 @@
     <option name="directoryName" value="fhYjDSST" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1366" />
     <option name="width" value="1360" />
     <option name="height" value="768" />
   </component>
@@ -152,8 +127,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,10 +139,18 @@
               <item name="examples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Course" />
     </panes>
   </component>
@@ -194,30 +175,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cargo Command.Test traits::tests">
-    <configuration name="Test arrays::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+  <component name="RunManager" selected="Cargo Command.Test macros_usage::tests">
+    <configuration name="Run rust_example" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="test --package rust_example --bin rust_example arrays::tests" />
-      <option name="allFeatures" value="false" />
-      <option name="nocapture" value="false" />
-      <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test arrays::tests::test_last_in_empty_array" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="channel" value="DEFAULT" />
-      <option name="command" value="test --package rust_example --bin rust_example arrays::tests::test_last_in_empty_array -- --exact" />
-      <option name="allFeatures" value="false" />
-      <option name="nocapture" value="false" />
-      <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test macros" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="channel" value="DEFAULT" />
-      <option name="command" value="test --package rust_example --bin rust_example macros" />
+      <option name="command" value="run --package rust_example --bin rust_example" />
       <option name="allFeatures" value="false" />
       <option name="nocapture" value="false" />
       <option name="backtrace" value="SHORT" />
@@ -228,6 +189,26 @@
     <configuration name="Test macros::tests::test_set_value" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
       <option name="command" value="test --package rust_example --bin rust_example macros::tests::test_set_value -- --exact" />
+      <option name="allFeatures" value="false" />
+      <option name="nocapture" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test macros_usage::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package rust_example --bin rust_example macros_usage::tests" />
+      <option name="allFeatures" value="false" />
+      <option name="nocapture" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test macros_usage::tests::test_add_pointers" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package rust_example --bin rust_example macros_usage::tests::test_add_pointers -- --exact" />
       <option name="allFeatures" value="false" />
       <option name="nocapture" value="false" />
       <option name="backtrace" value="SHORT" />
@@ -247,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo Command.Test macros_usage::tests" />
+        <item itemvalue="Cargo Command.Test macros_usage::tests::test_add_pointers" />
+        <item itemvalue="Cargo Command.Run rust_example" />
         <item itemvalue="Cargo Command.Test traits::tests" />
         <item itemvalue="Cargo Command.Test macros::tests::test_set_value" />
-        <item itemvalue="Cargo Command.Test macros" />
-        <item itemvalue="Cargo Command.Test arrays::tests" />
-        <item itemvalue="Cargo Command.Test arrays::tests::test_last_in_empty_array" />
       </list>
     </recent_temporary>
   </component>
@@ -273,9 +254,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_arrays__tests - 2019.06.21 at 19h 13m 50s.xml">
-      <configuration name="Test arrays::tests" configurationId="CargoCommandRunConfiguration" />
-    </history-entry>
     <history-entry file="Test_arrays__tests__test_last_in_empty_array - 2019.06.21 at 19h 21m 50s.xml">
       <configuration name="Test arrays::tests::test_last_in_empty_array" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
@@ -303,12 +281,15 @@
     <history-entry file="Test_traits__tests - 2019.06.21 at 22h 37m 35s.xml">
       <configuration name="Test traits::tests" configurationId="CargoCommandRunConfiguration" />
     </history-entry>
+    <history-entry file="Test_traits__tests - 2019.06.21 at 22h 37m 45s.xml">
+      <configuration name="Test traits::tests" configurationId="CargoCommandRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <frame x="1360" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25757575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -320,7 +301,7 @@
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.58181816" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.58181816" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -370,41 +351,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/mod.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matches.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cargo.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/point.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="38" column="69" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/macros.rs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -430,10 +376,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/associated_types.rs">
+    <entry file="file://$USER_HOME$/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/traits/iterator.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="90">
+          <caret line="1682" column="29" selection-start-line="1682" selection-start-column="24" selection-end-line="1682" selection-end-column="29" />
+          <folding>
+            <element signature="e#58#59#0" expanded="true" />
+            <element signature="e#82#83#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -448,28 +398,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.rs">
+    <entry file="file://$PROJECT_DIR$/src/objects/point.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/macros.rs">
+    <entry file="file://$PROJECT_DIR$/Cargo.toml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/bit_set.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/traits.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
-          <folding>
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generics.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/associated_types.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/mod.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/created_macros/mod.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/created_macros/int_bitset.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/created_macros/op.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/matches.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/macros_usage.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
         </state>
       </provider>
     </entry>

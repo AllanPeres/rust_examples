@@ -1,11 +1,11 @@
 mod matches;
-pub mod traits;
+mod traits;
 mod associated_types;
 mod generics;
 mod arrays;
-mod macros;
+mod macros_usage;
 
-pub mod utils;
+pub mod objects;
 
 #[allow(dead_code)]
 fn main() {
